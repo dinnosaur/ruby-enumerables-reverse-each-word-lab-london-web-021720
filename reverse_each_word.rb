@@ -15,7 +15,7 @@ array2 = []
 new_array.collect{|string|
 array2 << string.reverse
 }
-rray3= array2.join(" ")
+array3= array2.join(" ")
  puts array3
  return array3
 
