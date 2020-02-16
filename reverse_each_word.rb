@@ -7,6 +7,7 @@ new_array.each{|string|
   array2=string.reverse
 }
 array3= array2.join
+puts array3
 return array3
 
 end
