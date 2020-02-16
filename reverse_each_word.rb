@@ -13,7 +13,7 @@ new_array = array.split
 array2 = []
 
 new_array.collect{|string|
-array2 << string reverse
+array2 << string.reverse
 }
 rray3= array2.join(" ")
  puts array3
